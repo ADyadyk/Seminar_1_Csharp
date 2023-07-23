@@ -1,0 +1,10 @@
+﻿Console.Write("Введите номер дня недели: ");
+int number = int.Parse(Console.ReadLine()!);
+if (number == 1) Console.WriteLine("Введённый номер дня недели соответствует понедеьнику");
+if (number == 2) Console.WriteLine("Введённый номер дня недели соответствует вторнику");
+if (number == 3) Console.WriteLine("Введённый номер дня недели соответствует среде");
+if (number == 4) Console.WriteLine("Введённый номер дня недели соответствует четвергу");
+if (number == 5) Console.WriteLine("Введённый номер дня недели соответствует пятнице");
+if (number == 6) Console.WriteLine("Введённый номер дня недели соответствует субботе");
+if (number == 7) Console.WriteLine("Введённый номер дня недели соответствует воскресенью");
+if (number<1 || number>7) Console.WriteLine("Дня недели под таким номером не существует");
